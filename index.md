@@ -19,8 +19,11 @@ Email: zerozones17 at gmail.com
 
 [[Google Scholar]](https://scholar.google.com/citations?user=373vlUEAAAAJ) [[Semantic Scholar]](https://www.semanticscholar.org/author/Zhisong-Zhang/1929423) [[dblp]](https://dblp.org/pid/174/7415.html)
 
-* Attention Entropy is a Key Factor: An Analysis of Parallel Context Encoding with Full-attention-based Pre-trained Language Models. [[arxiv]](https://arxiv.org/pdf/TODO) <br>
+* Attention Entropy is a Key Factor: An Analysis of Parallel Context Encoding with Full-attention-based Pre-trained Language Models. [[arxiv]](https://arxiv.org/pdf/2412.16545) <br>
 **Z. Zhang**, Y. Wang, X. Huang, T. Fang, H. Zhang, C. Deng, S. Li, and D. Yu. Preprint, 2024.
+
+* A Silver Bullet or a Compromise for Full Attention? A Comprehensive Study of Gist Token-based Context Compression. [[arxiv]](https://arxiv.org/pdf/2412.17483) <br>
+C. Deng, **Z. Zhang**<sup>†</sup>, K. Mao, S. Li, X. Huang, D. Yu, and Z. Dou<sup>†</sup>. Preprint, 2024.
 
 * LoGU: Long-form Generation with Uncertainty Expressions. [[arxiv]](https://arxiv.org/pdf/2410.14309) <br>
 R. Yang\*, C. Zhang\*, **Z. Zhang**<sup>†</sup>, X. Huang, S. Yang, N. Collier, D. Yu, and Deqing Yang<sup>†</sup>. Preprint, 2024.
