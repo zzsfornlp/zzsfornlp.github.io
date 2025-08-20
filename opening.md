@@ -16,4 +16,11 @@ I think the most essential quality for research is *self-motivation* -- it's wha
 If you're interested, please send me an email with: <br>
 -- Subject line: "Application for {Position} at CityUHK - {Your Full Name}" <br>
 -- Attachments: CV, a brief research statement, and any other related materials which you think will be helpful <br>
-*(Due to time constraints, I may not be able to respond to all emails. Apologies for this and thanks for your understanding. Well-formatted emails are much appreciated and are very likely to receive a reply.)*
+
+*Due to time constraints, I may not be able to respond to every email or discuss with all applicants individually. Please note that the review process will take some time, and potential candidates will be contacted within two weeks for further discussions. I apologize for any inconvenience and appreciate your understanding and patience.*
+
+**More Information**:
+- PhD/MPhil Application (CityU): https://www.cityu.edu.hk/pg/research-degree-programmes/apply-now
+- PhD/MPhil Application (CS): https://www.cs.cityu.edu.hk/academic-programmes/master-philosophy-doctor-philosophy/admissions
+- Visiting Research Students: https://www.cityu.edu.hk/pg/visiting/visiting-research-students
+
