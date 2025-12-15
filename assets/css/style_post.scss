@@ -1,0 +1,56 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex !important; /* Use !important if needed to override */
+    min-height: 100vh;
+    width: auto !important;   /* Force auto width */
+    max-width: 85% !important; /* Ensure it's not constrained */
+    margin:0 auto;
+}
+
+.main-content-wrapper {
+    flex-grow: 1;
+    padding: 50px;
+    min-width: 0; /* Prevents default minimum width issues */
+    margin-left: 250px;
+}
+
+section {
+  width:auto;
+  float:right;
+  padding: 50px;
+}
+
+.sidebar-nav {
+  margin: 50px;
+
+  ul {
+    list-style: disc inside;  /* Show bullets inside the list */
+    padding-left: 10px;       /* Indent bullets */
+  }
+  li {
+    margin-bottom: 8px;
+  }
+  a {
+    text-decoration: none;
+    color: #069;
+    font-weight: bold;
+    &:hover {
+      color: #267CB9;
+    }
+  }
+}
+
+
+img {
+  max-width:70%;
+}

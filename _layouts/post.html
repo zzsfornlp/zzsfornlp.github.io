@@ -1,14 +1,43 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
-<h1>{{ page.title }}</h1>
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style_post.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
 
-<p class="view">by {{ page.author | default: site.author }}</p>
+  <body>
+    <div class="wrapper">
 
-{{content}}
-
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
+      <header>
+        <nav class="sidebar-nav">
+          <ul>
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/research' | relative_url }}">Research</a></li>
+            <li><a href="{{ '/opening' | relative_url }}">Opening</a></li>
+            <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
+            <li><a href="{{ '/misc' | relative_url }}">Misc</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <div class="main-content-wrapper">
+        <section>
+          {{ content }}
+        </section>
+        <footer>
+          <!-- Footer content here -->
+        </footer>
+      </div>
+      
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
