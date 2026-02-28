@@ -4,14 +4,11 @@ layout: default
 
 ### Research
 
-Here is a summary of my current main research interests and *(related work)*:
-- Enhancing LM's capability to handle long contexts. <br> 
-*([Gist-Compression](https://arxiv.org/abs/2412.17483), [Gist-Edit](https://arxiv.org/abs/2505.22156))*
-- Building efficient and reliable LLM-based agent systems. <br>
-*([Web-Rollback](https://arxiv.org/abs/2504.11788), [Cognitive Kernel-Pro](https://arxiv.org/abs/2508.00414))*
-- Understanding the underlying mechanisms of LMs. <br>
-*([Attention-Entropy-Analysis](https://arxiv.org/abs/2412.16545), [Uncertainty-Expression](https://arxiv.org/abs/2410.14309))*
-
+My current main research interest is on building efficient and reliable LLM/agent systems, which involves research at two levels:
+- The Model Level: Enhancing long-context capabilities, Understanding LM mechanisms, ... <br>
+*([Gist-Compression](https://arxiv.org/abs/2412.17483), [Gist-Edit](https://arxiv.org/abs/2505.22156), [Attention-Entropy-Analysis](https://arxiv.org/abs/2412.16545), ...)*
+- The System Level: Better search methods, Better system designs, ... <br>
+*([Web-Rollback](https://arxiv.org/abs/2504.11788), [Cognitive Kernel-Pro](https://arxiv.org/abs/2508.00414), ...)*
 
 ### Papers
 
@@ -19,29 +16,32 @@ Here is a list of my selected papers:
 
 [[Google Scholar]](https://scholar.google.com/citations?user=373vlUEAAAAJ) [[Semantic Scholar]](https://www.semanticscholar.org/author/Zhisong-Zhang/1929423) [[dblp]](https://dblp.org/pid/174/7415.html)
 
-* Enhancing Web Agents with Explicit Rollback Mechanisms. [[arxiv]](https://arxiv.org/abs/2504.11788) <br>
-**Z. Zhang**, T. Fang, K. Ma, W. Yu, H. Zhang, H. Mi, D. Yu. Preprint, 2025.
+* WebRollback: Enhancing Web Agents with Explicit Rollback Mechanisms. [[arxiv]](https://arxiv.org/abs/2504.11788) <br>
+**Z. Zhang**, T. Fang, K. Ma, W. Yu, H. Zhang, H. Mi, D. Yu. In Proceedings of *EACL*, 2026.
 
-* Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training. [[arxiv]](https://arxiv.org/abs/2508.00414) <br>
-T. Fang, **Z. Zhang**, X. Wang, R. Wang, C. Qin, Y. Wan, J. Ma, C. Zhang, J. Chen, X. Li, H. Zhang, H. Mi, D. Yu. Preprint, 2025.
+* Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training. [[arxiv]](https://arxiv.org/abs/2508.00414) [[system]](https://github.com/Tencent/CognitiveKernel-Pro/) <br>
+T. Fang, **Z. Zhang**, X. Wang, R. Wang, C. Qin, Y. Wan, J. Ma, C. Zhang, J. Chen, X. Li, H. Zhang, H. Mi, D. Yu. Technical Report, 2025.
 
 * InComeS: Integrating Compression and Selection Mechanisms into LLMs for Efficient Model Editing. [[arxiv]](https://arxiv.org/abs/2505.22156) <br>
 S. Li, **Z. Zhang**<sup>†</sup>, Y. Deng, C. Deng, T. Fang, H. Zhang, H. Mi, D. Yu, W. Lam<sup>†</sup>. Preprint, 2025.
 
-* UNCLE: Uncertainty Expressions in Long-Form Generation. [[arxiv]](https://arxiv.org/abs/2505.16922) <br>
-R. Yang\*, C. Zhang\*, **Z. Zhang**<sup>†</sup>, X. Huang, D. Yu, N. Collier<sup>†</sup>, and D. Yang<sup>†</sup>. Preprint, 2025.
+* UniGist: Towards General and Hardware-aligned Sequence-level Long Context Compression. [[arxiv]](https://arxiv.org/abs/2509.15763) <br>
+C. Deng, **Z. Zhang**<sup>†</sup>, K. Mao, S. Li, T. Fang, H. Zhang, H. Mi, D. Yu, and Z. Dou<sup>†</sup>. In Proceedings of *NeurIPS*, 2025.
 
-* Attention Entropy is a Key Factor: An Analysis of Parallel Context Encoding with Full-attention-based Pre-trained Language Models. [[arxiv]](https://arxiv.org/abs/2412.16545)[[paper]](https://aclanthology.org/2025.acl-long.485/) <br>
+* UNCLE: Uncertainty Expressions in Long-Form Generation. [[arxiv]](https://arxiv.org/abs/2505.16922) [[paper]](https://aclanthology.org/2025.emnlp-main.1543/) <br>
+R. Yang\*, C. Zhang\*, **Z. Zhang**<sup>†</sup>, X. Huang, D. Yu, N. Collier<sup>†</sup>, and D. Yang<sup>†</sup>. In Proceedings of *EMNLP*, 2025.
+
+* Attention Entropy is a Key Factor: An Analysis of Parallel Context Encoding with Full-attention-based Pre-trained Language Models. [[arxiv]](https://arxiv.org/abs/2412.16545) [[paper]](https://aclanthology.org/2025.acl-long.485/) <br>
 **Z. Zhang**, Y. Wang, X. Huang, T. Fang, H. Zhang, C. Deng, S. Li, and D. Yu. In Proceedings of *ACL*, 2025.
 
-* A Silver Bullet or a Compromise for Full Attention? A Comprehensive Study of Gist Token-based Context Compression. [[arxiv]](https://arxiv.org/abs/2412.17483)[[paper]](https://aclanthology.org/2025.acl-long.241/) <br>
+* A Silver Bullet or a Compromise for Full Attention? A Comprehensive Study of Gist Token-based Context Compression. [[arxiv]](https://arxiv.org/abs/2412.17483) [[paper]](https://aclanthology.org/2025.acl-long.241/) <br>
 C. Deng, **Z. Zhang**<sup>†</sup>, K. Mao, S. Li, X. Huang, D. Yu, and Z. Dou<sup>†</sup>. In Proceedings of *ACL*, 2025.
 
-* LoGU: Long-form Generation with Uncertainty Expressions. [[arxiv]](https://arxiv.org/abs/2410.14309)[[paper]](https://aclanthology.org/2025.acl-long.928/) <br>
+* LoGU: Long-form Generation with Uncertainty Expressions. [[arxiv]](https://arxiv.org/abs/2410.14309) [[paper]](https://aclanthology.org/2025.acl-long.928/) <br>
 R. Yang\*, C. Zhang\*, **Z. Zhang**<sup>†</sup>, X. Huang, S. Yang, N. Collier, D. Yu, and Deqing Yang<sup>†</sup>. In Proceedings of *ACL*, 2025.
 
-* Atomic Calibration of LLMs in Long-Form Generations. [[arxiv]](https://arxiv.org/abs/2410.13246) <br>
-C. Zhang, R. Yang, **Z. Zhang**<sup>†</sup>, X. Huang, S. Yang, D. Yu, and N. Collier<sup>†</sup>. Preprint, 2024.
+* Atomic Calibration of LLMs in Long-Form Generations. [[arxiv]](https://arxiv.org/abs/2410.13246) [[paper]](https://aclanthology.org/2025.findings-ijcnlp.9/) <br>
+C. Zhang, R. Yang, **Z. Zhang**<sup>†</sup>, X. Huang, S. Yang, D. Yu, and N. Collier<sup>†</sup>. In Proceedings of *AACL-IJCNLP-Findings*, 2025.
 
 * Data-efficient Active Learning for Structured Prediction with Partial Annotation and Self-Training. [[paper]](https://aclanthology.org/2023.findings-emnlp.865/) <br>
 **Z. Zhang**, E. Strubell, and E. Hovy. In Proceedings of *EMNLP-Findings*, 2023.
